@@ -1,3 +1,5 @@
+# Copyright (c) 2024 TADxBotz. All rights reserved.
+
 from telegram_bot import bot
 
 # Start the bot

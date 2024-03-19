@@ -1,3 +1,5 @@
+# Copyright (c) 2024 TADxBotz. All rights reserved.
+
 import telebot
 import os
 from urllib.parse import urlparse

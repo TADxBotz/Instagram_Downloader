@@ -1,3 +1,5 @@
+# Copyright (c) 2024 TADxBotz. All rights reserved.
+
 import instaloader
 import requests
 import uuid
