@@ -20,11 +20,11 @@
 <ol>
   <li>Clone the repository:</li>
   <pre><code>git clone https://github.com/TADxBotz/Instagram_Downloader.git
-cd instagram-downloader-bot</code></pre>
+cd Instagram_Downloader</code></pre>
   <li>Build the Docker image:</li>
   <pre><code>docker build -t instagram_downloader_bot .</code></pre>
   <li>Run the Docker container:</li>
-  <pre><code>docker run -d --name instagram_downloader_container instagram_downloader_bot</code></pre>
+  <pre><code>docker run instagram_downloader_bot</code></pre>
 </ol>
 
 <h3>Heroku Deployment</h3>
@@ -45,7 +45,7 @@ cd instagram-downloader-bot</code></pre>
 <ol>
   <li>Clone the repository:</li>
   <pre><code>git clone https://github.com/TADxBotz/Instagram_Downloader.git
-cd instagram-downloader-bot</code></pre>
+cd Instagram_Downloader</code></pre>
   <li>Install dependencies:</li>
   <pre><code>pip install -r requirements.txt</code></pre>
   <li>Create a <code>config.py</code> file in the root directory and add your Telegram bot token:</li>
