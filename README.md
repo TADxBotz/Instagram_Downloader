@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Instagram Downloader Bot</title>
-</head>
 <body>
 
 <h1>Instagram Downloader Bot</h1>
