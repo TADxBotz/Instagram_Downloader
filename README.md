@@ -19,7 +19,7 @@
 <p>If you prefer to run the bot using Docker:</p>
 <ol>
   <li>Clone the repository:</li>
-  <pre><code>git clone https://github.com/yourusername/instagram-downloader-bot.git
+  <pre><code>git clone https://github.com/TADxBotz/Instagram_Downloader.git
 cd instagram-downloader-bot</code></pre>
   <li>Build the Docker image:</li>
   <pre><code>docker build -t instagram_downloader_bot .</code></pre>
@@ -44,7 +44,7 @@ cd instagram-downloader-bot</code></pre>
 <p>If you prefer to run the bot locally:</p>
 <ol>
   <li>Clone the repository:</li>
-  <pre><code>git clone https://github.com/yourusername/instagram-downloader-bot.git
+  <pre><code>git clone https://github.com/TADxBotz/Instagram_Downloader.git
 cd instagram-downloader-bot</code></pre>
   <li>Install dependencies:</li>
   <pre><code>pip install -r requirements.txt</code></pre>

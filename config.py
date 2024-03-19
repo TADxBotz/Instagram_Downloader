@@ -1,3 +1,3 @@
 # config.py
 
-TELEGRAM_BOT_TOKEN = "1234567890:AAEWnckMoWk3AERAtCaUzhfCiVyKvUSrMQ4"
+TELEGRAM_BOT_TOKEN = "your_telegram_bot_token"
