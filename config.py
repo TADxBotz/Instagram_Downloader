@@ -1,0 +1,3 @@
+# config.py
+
+TELEGRAM_BOT_TOKEN = "1234567890:AAEWnckMoWk3AERAtCaUzhfCiVyKvUSrMQ4"
