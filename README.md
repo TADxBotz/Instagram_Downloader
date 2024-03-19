@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Your Telegram Bot Name</title>
+  <title>Instagram Downloader Bot</title>
 </head>
 <body>
 
-<h1>Your Telegram Bot Name</h1>
+<h1>Instagram Downloader Bot</h1>
 
-<p>Welcome to your Telegram bot repository. This README.md provides instructions on how to set up, run, and deploy your bot.</p>
+<p>Welcome to the Instagram Downloader bot repository. This README provides instructions on how to set up, run, and deploy the bot.</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Download Instagram posts and reels.</li>
+  <li>Supports both images (.jpg) and videos (.mp4).</li>
+  <li>Handles Instagram URLs for posts and reels.</li>
+  <li>Runs as a Telegram bot for easy access and usage.</li>
+</ul>
 
 <h2>Getting Started</h2>
 
@@ -22,7 +30,7 @@
 <p>To get started, follow these steps:</p>
 <ol>
   <li>Clone the repository:</li>
-  <code>git clone https://github.com/yourusername/your-telegram-bot.git<br>cd your-telegram-bot</code>
+  <code>git clone https://github.com/yourusername/instagram-downloader-bot.git<br>cd instagram-downloader-bot</code>
   <li>Install dependencies:</li>
   <code>pip install -r requirements.txt</code>
 </ol>
@@ -41,7 +49,7 @@
 
 <h4>Docker</h4>
 <p>To run the bot using Docker:</p>
-<code>docker build -t mytelegrambot .<br>docker run -d --name mytelegrambot-container mytelegrambot</code>
+<code>docker build -t instagram_downloader_bot .<br>docker run -d --name instagram_downloader_container instagram_downloader_bot</code>
 
 <h4>Heroku</h4>
 <p>To deploy the bot to Heroku:</p>
