@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Instagram Downloader Bot</title>
+</head>
 <body>
 
 <h1>Instagram Downloader Bot</h1>
@@ -27,38 +30,38 @@
 <p>To get started, follow these steps:</p>
 <ol>
   <li>Clone the repository:</li>
-  <code>git clone https://github.com/yourusername/instagram-downloader-bot.git<br>cd instagram-downloader-bot</code>
+  <pre><code>git clone https://github.com/yourusername/instagram-downloader-bot.git<br>cd instagram-downloader-bot</code></pre>
   <li>Install dependencies:</li>
-  <code>pip install -r requirements.txt</code>
+  <pre><code>pip install -r requirements.txt</code></pre>
 </ol>
 
 <h3>Configuration</h3>
 <p>Create a <code>config.py</code> file in the root directory and add your Telegram bot token:</p>
-<code>TELEGRAM_BOT_TOKEN = "your_telegram_bot_token"</code>
+<pre><code>TELEGRAM_BOT_TOKEN = "your_telegram_bot_token"</code></pre>
 
 <h2>Usage</h2>
 
 <h3>Running Locally</h3>
 <p>To run the bot locally, use the following command:</p>
-<code>python main.py</code>
+<pre><code>python main.py</code></pre>
 
 <h3>Deployment</h3>
 
 <h4>Docker</h4>
 <p>To run the bot using Docker:</p>
-<code>docker build -t instagram_downloader_bot .<br>docker run -d --name instagram_downloader_container instagram_downloader_bot</code>
+<pre><code>docker build -t instagram_downloader_bot .<br>docker run -d --name instagram_downloader_container instagram_downloader_bot</code></pre>
 
 <h4>Heroku</h4>
 <p>To deploy the bot to Heroku:</p>
 <ol>
   <li>Log in to Heroku:</li>
-  <code>heroku login</code>
+  <pre><code>heroku login</code></pre>
   <li>Create a new Heroku app:</li>
-  <code>heroku create</code>
+  <pre><code>heroku create</code></pre>
   <li>Deploy the bot:</li>
-  <code>git push heroku main</code>
+  <pre><code>git push heroku main</code></pre>
   <li>Scale the bot:</li>
-  <code>heroku ps:scale worker=1</code>
+  <pre><code>heroku ps:scale worker=1</code></pre>
 </ol>
 
 <h2>Contributing</h2>
