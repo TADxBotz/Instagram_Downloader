@@ -1,4 +1,4 @@
-# Copyright (c) 2024 TADxBotz. All rights reserved.
+#insta_loader.py
 
 import instaloader
 import requests

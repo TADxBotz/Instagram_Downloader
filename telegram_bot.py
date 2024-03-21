@@ -1,4 +1,4 @@
-# Copyright (c) 2024 TADxBotz. All rights reserved.
+# telegram_bot.py
 
 import telebot
 import os

@@ -1,4 +1,4 @@
-# Copyright (c) 2024 TADxBotz. All rights reserved.
+# main.py
 
 from telegram_bot import bot
 
